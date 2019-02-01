@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 datafile = './data/'
-data_train = pd.read_csv(datafile +'train.csv')
-data_test = pd.read_csv(datafile + 'test.csv')
+data_train = pd.read_csv(datafile +'cs-train.csv')
 
 """
 数据说明
